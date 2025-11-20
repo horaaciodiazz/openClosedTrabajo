@@ -8,7 +8,6 @@ namespace Ucu.Poo.Ocp
         {
             DayOfWeek day = date.DayOfWeek;
             bool isWeekDay = day >= DayOfWeek.Monday && day <= DayOfWeek.Friday;
-
             
             if (isWeekDay && hour >= 10 && hour < 17) return true;
 
