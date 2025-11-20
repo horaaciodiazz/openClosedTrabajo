@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Library</name>
+    </assembly>
+    <members>
+        <member name="T:Ucu.Poo.Ocp.Calendar">
+            <summary>
+            Esta clase representa un calendario de días feriados. Por simplicidad no
+            se consideran los días feriados de otros países ni los feriados
+            laborables.
+            </summary>
+        </member>
+        <member name="M:Ucu.Poo.Ocp.Calendar.IsHoliday(System.DateTime)">
+            <summary>
+            Determina si una fecha dada es un día feriado.
+            </summary>
+            <param name="date">La fecha a determinar si es feriado o no.</param>
+            <returns>true si la fecha provista es feriado, false en caso
+            contrario.</returns>
+        </member>
+        <member name="T:Ucu.Poo.Ocp.Gym">
+            <summary>
+            Esta clase representa un gimnasio con reglas de acceso basadas en el
+            tipo de usuario, día de la semana y hora del día.
+            </summary>
+        </member>
+        <member name="M:Ucu.Poo.Ocp.Gym.CanEnter(Ucu.Poo.Ocp.Membership,System.DateTime,System.Int32)">
+            <summary>
+            Determina si un usuario puede ingresar al gimnasio en un día y hora.
+            </summary>
+            <param name="membership"></param>
+            <param name="date"></param>
+            <param name="hour"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Ucu.Poo.Ocp.Membership">
+            <summary>
+            El tipo de membresía de un usuario.
+            </summary>
+        </member>
+        <member name="F:Ucu.Poo.Ocp.Membership.Basic">
+            <summary>
+            Membresía básica.
+            </summary>
+        </member>
+        <member name="F:Ucu.Poo.Ocp.Membership.Premium">
+            <summary>
+            Membresía premium.
+            </summary>
+        </member>
+        <member name="F:Ucu.Poo.Ocp.Membership.DayPass">
+            <summary>
+            Pase por el día.
+            </summary>
+        </member>
+    </members>
+</doc>
